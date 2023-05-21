@@ -1,5 +1,7 @@
+'use client'
+
 import React, { useEffect } from "react";
-import styles from "../styles/Home.module.css";
+import styles from "../Home.module.css";
 import { useAppStore } from "../stores";
 import { useMap } from "react-map-gl";
 type Props = {};
